@@ -25,7 +25,7 @@ SECRET_KEY = '7#n955)l^418l9otj@tdiv&3b8h7f&l$88zcw_2ru8-)ssq%kn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS =  ["hcnsd.pythonanywhere.com"]
 
 
 # Application definition
@@ -121,3 +121,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
